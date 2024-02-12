@@ -34,15 +34,22 @@ dt {font-weight: bold;color: #002171;}
 #desktop {display: none;}
 footer {background-color: #FFFFFF; font-size: 0.70em;font-style: italic;
 text-align: center;padding: 1em;}
-@media screen and (min-width: 600px) 
- {h1 {font-size: 2em; letter-spacing: .25em;}
-nav ul {display: flex; flex-direction: row; flex-wrap: nowrap; 
-justify-content: space-around; padding-right: 2em;}
-nav li {width: 12em; border-bottom: none;}
-section {padding-left: 2em; padding-right: 2em;}
-#flow {display: flex; flex-direction: row;}
-#mobile {display: none;}
-#desktop {display: inline;}
-#homehero {background-size: 100% 100%;}
-#yurthero {background-size: 100% 100%}
-#trailhero {background-size: 100% 100%}}
+
+@media screen and (min-width: 600px) {
+    h1 {font-size: 2em; letter-spacing: .25em;}
+    nav ul {display: flex; flex-direction: row; flex-wrap: nowrap; 
+    justify-content: space-around; padding-right: 2em;}
+    nav li {width: 12em; border-bottom: none;}
+    section {padding-left: 2em; padding-right: 2em;}
+    #flow {display: flex; flex-direction: row;}
+    #mobile {display: none;}
+    #desktop {display: inline;}
+    #homehero {background-size: 100% 100%;}
+    #yurthero {background-size: 100% 100%}
+    #trailhero {background-size: 100% 100%}}
+
+@media screen and (min-width: 1024px){
+    body {background-color: (to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);}
+    nav ul {padding-left: 10%; padding-right: 10%;}
+    #wrapper {margin: auto; width: 80%;}
+}
