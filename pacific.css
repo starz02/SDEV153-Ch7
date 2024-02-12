@@ -1,4 +1,4 @@
-body {font-family: Verdana, Arial, sans-serif;color: #666666;background-color: #FFFFFF; margin: 0;}
+body {font-family: Verdana, Arial, sans-serif;color: #666666;background-color: #90C7E3; margin: 0;}
 * { box-sizing: border-box; }
 header { background-color: #002171;
     background-image: url(sunset.jpg);
@@ -35,7 +35,7 @@ dt {font-weight: bold;color: #002171;}
 footer {background-color: #FFFFFF; font-size: 0.70em;font-style: italic;
 text-align: center;padding: 1em;}
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px){
     h1 {font-size: 2em; letter-spacing: .25em;}
     nav ul {display: flex; flex-direction: row; flex-wrap: nowrap; 
     justify-content: space-around; padding-right: 2em;}
@@ -46,7 +46,8 @@ text-align: center;padding: 1em;}
     #desktop {display: inline;}
     #homehero {background-size: 100% 100%;}
     #yurthero {background-size: 100% 100%}
-    #trailhero {background-size: 100% 100%}}
+    #trailhero {background-size: 100% 100%}
+}
 
 @media screen and (min-width: 1024px){
     body {background-color: (to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);}
