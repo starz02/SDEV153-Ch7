@@ -1,8 +1,21 @@
+@media screen and (min-width: 600px) 
+{h1 {font-size: 2em; letter-spacing: .25em;}
+nav ul {display: flex; flex-direction: row; flex-wrap: nowrap; 
+    justify-content: space-around; padding-right: 2em;}
+nav li {width: 12em; border-bottom: none;}
+section {padding-left: 2em; padding-right: 2em;}
+#flow {display: flex; flex-direction: row;}
+#mobile {display: none;}
+#desktop {display: inline;}
+#homehero {background-size: 100% 100%;}
+#yurthero {background-size: 100% 100%}
+#trailhero {background-size: 100% 100%}}
 body {font-family: Verdana, Arial, sans-serif;color: #666666;background-color: #FFFFFF; margin: 0;}
 * { box-sizing: border-box; }
-#wrapper { }
 header { background-color: #002171;
-        color: #FFFFFF;padding: 1em;}
+    background-image: url(sunset.jpg);
+    background-position: right; background-repeat: no-repeat; 
+    color: #FFFFFF; padding: 1em;}
 header nav a {text-decoration: none; color: #FFFFFF;}
 header nav a:visited {color: #FFFFFF;}
 header nav a:hover {color: #90C7E3;}
